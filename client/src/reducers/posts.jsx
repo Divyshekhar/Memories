@@ -1,4 +1,4 @@
-const postsReducer = (post = [], action) => {
+const postsReducer = (post = ["a"], action) => {
     switch (action.type) {
       case 'FETCH_ALL':
         return action.payload || []; 

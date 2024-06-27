@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Container, Grow, Grid } from '@mui/material';
 import memories from './images/memories.png';
 import Posts from './components/Posts/Posts';
