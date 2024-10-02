@@ -1,4 +1,4 @@
-const postsReducer = (post = ["a"], action) => {
+const postsReducer = (post = [], action) => {
     switch (action.type) {
       case 'FETCH_ALL':
         return action.payload || []; 
@@ -8,5 +8,6 @@ const postsReducer = (post = ["a"], action) => {
         return post;
     }
   };
+  //post = state
   export default postsReducer;
   

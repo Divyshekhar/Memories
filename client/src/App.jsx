@@ -3,7 +3,7 @@ import { Container, Grow, Grid } from '@mui/material';
 import memories from './images/memories.png';
 import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
-import { StyledAppBar, StyledHeading, StyledImage } from './styles';
+import { StyledAppBar, StyledHeading, StyledImage } from './styles'; //custom made using the styles.jsx 
 import { useDispatch } from 'react-redux';
 import {getPosts} from './actions/posts'
 
