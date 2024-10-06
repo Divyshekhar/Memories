@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url= 'http://localhost:3000/posts';
+const url= 'https://memories-backend-1ezd.onrender.com/posts';
 
 export const fetchPosts = async () => {
   try {
